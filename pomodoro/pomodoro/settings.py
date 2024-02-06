@@ -27,10 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+AUTH_USER_MODEL = 'auctions.User'
 
 # Application definition
 
 INSTALLED_APPS = [
+    'timer',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
