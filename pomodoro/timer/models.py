@@ -46,3 +46,5 @@ from django.db import models
     # note
 
     # date
+
+# ANother model
